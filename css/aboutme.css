@@ -1,12 +1,9 @@
-.aboutme{
-    height: 110vh;
 
-}
 .aboutme-text{
     position: relative;
-    z-index: -1;
+    
     background-color: white;
-    height: 110vh;
+   
     display: flex;
     flex-direction: column;
    
@@ -76,9 +73,13 @@
 }
 
 @media screen and (max-width: 720px) {
+    .aboutme{
+        height: 300vh;
+    
+    }
     .aboutme-text{
         position: relative;
-        z-index: -1;
+       
         background-color: white;
         height: 290vh;
         display: flex;
@@ -126,13 +127,10 @@
 
 }
 @media screen and (max-width: 1540px) and(min-width: 1280px) {
-    .aboutme{
-        height: 200vh;
-    
-    }
+
     .aboutme-text{
         position: relative;
-        z-index: -1;
+      
         background-color: white;
         height: 180vh;
         display: flex;
