@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 1540px) and (min-width:1280) {
     .services {
-       
+       margin-top: 500px;
         background-color: #f5f5f5;
         width: 100vw;
         height: 250vh;

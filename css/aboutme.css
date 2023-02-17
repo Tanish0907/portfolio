@@ -1,3 +1,7 @@
+.aboutme{
+    height: 150vh;
+
+}
 .aboutme-text{
     position: relative;
     z-index: -1;
