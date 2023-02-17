@@ -1,0 +1,141 @@
+.contact{
+    width: 100vw;
+    height: 80vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.f{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lines p{
+    margin-top: 10px;
+    width : 80%;
+    font-size: large;
+}
+.fg{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fill{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.connectwithme{
+    font-size:xx-large;
+    color: #85CDF6;
+} 
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width: 720px) {
+    .contact{
+        width: 100vw;
+        height: 80vh;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .f{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lines p{
+        margin-top: 10px;
+        width : 100%;
+        font-size: large;
+    }
+    .fg{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .fill{
+        padding: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    .connectwithme{
+        font-size:xx-large;
+        color: #85CDF6;
+    } 
+    .info{
+        display: none;
+    }
+   
+
+
+}
+@media screen and (max-width: 1280px) and (min-width: 720px){
+    .contact{
+        margin-top: 50px;
+        width: 100vw;
+        height: 110vh;
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .f{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lines p{
+        margin-top: 10px;
+        width : 100%;
+        font-size: large;
+    }
+    .fg{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .fill{
+        padding: 10px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    .connectwithme{
+        font-size:xx-large;
+        color: #85CDF6;
+    } 
+    .info{
+        display: none;
+    }
+   
+
+
+}

@@ -1,0 +1,254 @@
+@import "fonts.css";
+
+.intro {
+
+    background-image: radial-gradient(at top, #37adf1, white);
+    color: aliceblue;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.content {
+    margin-left: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60vh;
+
+}
+
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.typewriter h2 {
+    margin-top: 10px;
+    font-size: 3rem;
+    width: 40%;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    letter-spacing: 0em;
+    /* Adjust as needed */
+    animation:
+        typing 2.5s steps(25, end),
+        blink-caret .65s step-end infinite;
+
+
+}
+
+.typewriter p {
+    color: black;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans Syloti Nagri', sans-serif;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+.social img {
+    height: 50px;
+}
+
+.social a {
+
+    color: white;
+    cursor: pointer;
+}
+
+.devimg img {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 40%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #37adf1;
+    }
+}
+
+@keyframes typingsmall {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+@keyframes typingmid {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .devimg img {
+        display: none;
+    }
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 60vh;
+        margin: auto;
+        margin-left: 20px;
+
+    }
+
+    .intro {
+
+        background-image: radial-gradient(at top, #37adf1, white);
+        color: aliceblue;
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin-top: 10px;
+
+    }
+
+    .typewriter h2 {
+        margin-top: 10px;
+        font-size: 3rem;
+        width: 100%;
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid white;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        letter-spacing: 0em;
+        /* Adjust as needed */
+        animation:
+            typingsmall 2.5s steps(25, end),
+            blink-caret .65s step-end infinite;
+
+
+    }
+
+    .typewriter p {
+        color: black;
+        margin-bottom: 15px;
+        font-family: 'Noto Sans Syloti Nagri', sans-serif;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1540px) and (min-width: 1280px)
+{
+
+
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 60vh;
+        margin: auto;
+        margin-left: 20px;
+
+    }
+
+    .intro {
+
+        background-image: radial-gradient(at top, #37adf1, white);
+        color: aliceblue;
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 60%;
+        margin-top: 10px;
+
+    }
+
+    .typewriter h2 {
+        margin-top: 10px;
+        font-size: 3rem;
+        width: 50%;
+        overflow: hidden;
+         border-right: .15em solid white;
+        white-space: nowrap; 
+        letter-spacing: 0em; 
+        animation:
+            typingmid 2.5s steps(25, end),
+            blink-caret .65s step-end infinite;
+
+
+    }
+
+    .typewriter p {
+        color: black;
+        margin-bottom: 15px;
+        font-family: 'Noto Sans Syloti Nagri', sans-serif;
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+}

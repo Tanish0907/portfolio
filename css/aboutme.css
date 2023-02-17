@@ -1,0 +1,174 @@
+.aboutme-text{
+    position: relative;
+    z-index: -1;
+    background-color: white;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.l1{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l1 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.l2 , .l3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+}
+.l3{
+    font-size: x-large;
+}
+.l2{
+    color: #37adf1;
+}
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.desgine{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30.5%;
+    height: 600px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.tl1 img{
+
+    height: 100px;
+    width: 100px;
+}
+.desgine h3{
+    font-size: xx-large;
+    font-weight: 400;
+    color: #37adf1;
+}
+.desgine p{
+    font-size: x-large;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
+@media screen and (max-width: 720px) {
+    .aboutme-text{
+        position: relative;
+        z-index: -1;
+        background-color: white;
+        height: 290vh;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .l3{
+        font-size: large;
+    }
+    .exp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+    }
+    .desgine{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+    .desgine p{
+        font-size: large;
+        font-weight: 400;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: row;
+        width: 100%;
+        height: 200px;
+    }
+    .tl1{
+
+        height: 100px;
+        width: 100px;
+    }
+
+
+    
+
+}
+@media screen and (max-width: 1540px) and(min-width: 1280px) {
+    .aboutme-text{
+        position: relative;
+        z-index: -1;
+        background-color: white;
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .l3{
+        font-size: large;
+    }
+    .exp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+    }
+    .desgine{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+    .desgine p{
+        font-size: large;
+        font-weight: 400;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: row;
+        width: 100%;
+        height: 200px;
+    }
+    .tl1{
+
+        height: 100px;
+        width: 100px;
+    }
+
+
+    
+
+}

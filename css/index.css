@@ -1,0 +1,13 @@
+@import "./fonts.css";
+html {
+    scroll-behavior: smooth;
+  }
+  .pages{
+    
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .break{
+    height:10vh;
+    width: 100vw;
+  }

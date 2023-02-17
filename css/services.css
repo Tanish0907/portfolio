@@ -1,0 +1,163 @@
+.services {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 400px;
+ 
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 500px;
+}
+
+.description p {
+    font-size: x-large;
+    font-weight: 400;
+
+}
+
+.c1 img {
+    height: 100px;
+    width: 100px;
+}
+
+.c1 h3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        background-color: #f5f5f5;
+        width: 100vw;
+        height: 160vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+
+
+
+    
+    .c1 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 500px;
+    }
+
+    .description p {
+        font-size: large;
+        font-weight: 400;
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .description {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .c1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 1540px) and (min-width:1280) {
+    .services {
+       
+        background-color: #f5f5f5;
+        width: 100vw;
+        height: 250vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .c1 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 500px;
+    }
+
+    .description p {
+        font-size: large;
+        font-weight: 400;
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .description {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .c1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+
+}
