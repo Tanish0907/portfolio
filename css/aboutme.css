@@ -1,5 +1,5 @@
 .aboutme{
-    height: 150vh;
+    height: 110vh;
 
 }
 .aboutme-text{
@@ -126,6 +126,10 @@
 
 }
 @media screen and (max-width: 1540px) and(min-width: 1280px) {
+    .aboutme{
+        height: 200vh;
+    
+    }
     .aboutme-text{
         position: relative;
         z-index: -1;
